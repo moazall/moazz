@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>متجر Moaz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+     <!-- نافذة تسجيل الدخول -->
+     <div id="loginModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>تسجيل الدخول</h2>
+            <form>
+                <label for="username">اسم المستخدم:</label>
+                <input type="text" id="username" name="username" required>
+                <label for="password">كلمة المرور:</label>
+                <input type="password" id="password" name="password" required>
+                <button type="submit">تسجيل الدخول</button>
+            </form>
+            <p>ليس لديك حساب؟ <a href="#">إنشاء حساب</a></p>
+        </div>
+    </div>
+    
+    <!-- رأس الصفحة -->
+    <header>
+        <h1>متجر Moaz</h1>
+        <div class="search-bar">
+            <input type="text" placeholder="ابحث عن منتج...">
+            <button>بحث</button>
+        </div>
+    </header>
+
+    <!-- قائمة التنقل -->
+    <nav>
+        <ul>
+            <li><a href="#">الرئيسية</a></li>
+            <li><a href="#">المنتجات</a></li>
+            <li><a href="#">من نحن</a></li>
+            <li><a href="#">تواصل معنا</a></li>
+            <li><a href="#">تسجيل الدخول</a></li>
+        </ul>
+    </nav>
+
+    <!-- محتوى الموقع -->
+    <div class="container">
+        <h2>المنتجات المميزة</h2>
+        <div class="products">
+            <div class="product">
+                <img src="product1.jpg" alt="منتج 1">
+                <h3>منتج 1</h3>
+                <p>وصف المنتج 1</p>
+                <p>السعر: 100$</p>
+                <button>أضف إلى السلة</button>
+            </div>
+            <div class="product">
+                <img src="product2.jpg" alt="منتج 2">
+                <h3>منتج 2</h3>
+                <p>وصف المنتج 2</p>
+                <p>السعر: 150$</p>
+                <button>أضف إلى السلة</button>
+            </div>
+            <div class="product">
+                <img src="product3.jpg" alt="منتج 3">
+                <h3>منتج 3</h3>
+                <p>وصف المنتج 3</p>
+                <p>السعر: 200$</p>
+                <button>أضف إلى السلة</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- تذييل الصفحة -->
+    <footer>
+        <p>جميع الحقوق محفوظة © 2024 متجر Moaz</p>
+    </footer>
+
+   
+
+</body>
+</html>
